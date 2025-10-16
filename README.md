@@ -17,7 +17,13 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    yarn install
    ```
 
-2. Start the app
+2. Create a `.env` file in the root directory with your Infura API key
+
+   ```bash
+   EXPO_PUBLIC_INFURA_API_KEY=your_infura_api_key_here
+   ```
+
+3. Start the app
 
    ```bash
    npx expo start
