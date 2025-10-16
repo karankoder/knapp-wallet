@@ -1,13 +1,20 @@
-# Welcome to your Expo app 👋
+# Welcome to your Knapp Wallet app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+
+## Features
+
+- **Dashboard Page**: A simple interface to view wallet details.
+- **Wallet Generation**: Automatically generates a local wallet on the Polygon testnet and stores it in AsyncStorage. If a wallet already exists, it will load the existing wallet.
+- **Balance Display**: Shows the balance in MATIC.
+- **Send Functionality**: Includes a "Send" button that opens a basic form for transactions.
 
 ## Get started
 
 1. Install dependencies
 
    ```bash
-   npm install
+   yarn install
    ```
 
 2. Start the app

@@ -2,7 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { ethers } from 'ethers';
 
 const WALLET_KEY = '@crypto_wallet_private_key';
-const INFURA_PROJECT_ID = '397e71538cc84720a653492ff33d1ef7';
+const INFURA_PROJECT_ID = process.env.EXPO_PUBLIC_INFURA_API_KEY;
 const POLYGON_AMOY_RPC = `https://polygon-amoy.infura.io/v3/${INFURA_PROJECT_ID}`;
 
 export interface WalletData {

@@ -1,21 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./app/**/*.{js,ts,jsx,tsx}'],
+  content: ['./app/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,jsx,ts,tsx}'],
   presets: [require('nativewind/preset')],
   theme: {
     extend: {
       colors: {
-        // We define our app's color palette here
-        background: '#111827', // A dark navy/gray
-        card: '#1F2937', // A slightly lighter gray for cards
+        background: '#111827',
+        card: '#1F2937',
         primary: {
-          DEFAULT: '#8B5CF6', // A vibrant violet
+          DEFAULT: '#8B5CF6',
           light: '#A78BFA',
         },
         text: {
           primary: '#FFFFFF',
-          secondary: '#9CA3AF', // A light gray for secondary text
-          subtle: '#4B5563', // A darker gray for placeholders
+          secondary: '#9CA3AF',
+          subtle: '#4B5563',
         },
       },
     },
